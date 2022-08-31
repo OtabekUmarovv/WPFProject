@@ -1,0 +1,12 @@
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\bin\Debug\net6.0\WpfExamProject.Domain.deps.json
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\bin\Debug\net6.0\WpfExamProject.Domain.dll
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\bin\Debug\net6.0\WpfExamProject.Domain.pdb
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\obj\Debug\net6.0\WpfExamProject.Domain.csproj.AssemblyReference.cache
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\obj\Debug\net6.0\WpfExamProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\obj\Debug\net6.0\WpfExamProject.Domain.AssemblyInfoInputs.cache
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\obj\Debug\net6.0\WpfExamProject.Domain.AssemblyInfo.cs
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\obj\Debug\net6.0\WpfExamProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\obj\Debug\net6.0\WpfExamProject.Domain.dll
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\obj\Debug\net6.0\refint\WpfExamProject.Domain.dll
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\obj\Debug\net6.0\WpfExamProject.Domain.pdb
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Domain\obj\Debug\net6.0\ref\WpfExamProject.Domain.dll

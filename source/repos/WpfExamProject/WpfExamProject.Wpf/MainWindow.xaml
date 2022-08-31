@@ -1,0 +1,128 @@
+﻿<Window x:Class="WpfExamProject.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        xmlns:controls="clr-namespace:WpfExamProject.Wpf.UI.Controls"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded"
+        ResizeMode="NoResize"
+        Title="NajotCRM" Height="500" Width="750" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <Grid Grid.Column="0" >
+            <Grid.Background>
+                #6D7A86
+            </Grid.Background>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="55"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" >
+                <TextBox Name="SearchBox" TextChanged="SearchBox_TextChanged" Margin="5 5 15 5" Padding="10" Background="#3B495E"
+                         md:TextFieldAssist.TextFieldCornerRadius="10" md:HintAssist.Hint="Search" 
+                         BorderThickness="0" FontSize="13"
+                         Foreground="Snow" FontWeight="DemiBold"
+                         md:TextFieldAssist.UnderlineBrush="Transparent"/>
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Visible">
+                    <ItemsControl Name="StudentsList"/>
+
+
+
+                </ScrollViewer>
+
+            </Grid>
+
+        </Grid>
+        <Grid Grid.Column="3" >
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#536872" Offset="0.0" />
+                    <GradientStop Color="#838996" Offset="0.2" />
+                    <GradientStop Color="#F0EAD6" Offset="0.8" />
+                    <GradientStop Color="#838996" Offset="1.0" />
+                </LinearGradientBrush>
+            </Grid.Background>
+
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Margin="5" CornerRadius="20" Background="#3B495E">
+                
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+                    <Button Name="SaveBtn" Background="#355764" BorderThickness="0" md:ButtonAssist.CornerRadius="8" Width="100" Height="45" Click="Updatebtn_Click">
+                        <StackPanel Orientation="Horizontal">
+
+                            <md:PackIcon
+                                Width="18" Height="30"  
+                                Kind="Update"
+                                Margin="0 0 3 0"/>
+
+                            <TextBlock Text="Update" VerticalAlignment="Center"/>
+
+
+                        </StackPanel>
+                    </Button>
+
+                    <Button Name="DeleteBtn" Background="#355764" 
+                            BorderThickness="0" 
+                            md:ButtonAssist.CornerRadius="8" 
+                            Width="90" Height="45" 
+                            Margin="40 0 40 0" 
+                            Click="Deletebtn_Click">
+                        
+                        <StackPanel Orientation="Horizontal" >
+
+                            <md:PackIcon
+                                Width="17" Height="30"  
+                                Kind="Delete"/>
+
+                            <TextBlock 
+                                Text="Delete" 
+                                VerticalAlignment="Center"/>
+
+
+                        </StackPanel>
+                    </Button>
+
+                    <Button  Width="90" Height="45" Background="#355764" BorderThickness="0" md:ButtonAssist.CornerRadius="8" Click="Addbtn_Click">
+                        <StackPanel Orientation="Horizontal">
+
+                            <md:PackIcon
+                                Width="17" Height="30"  
+                                Kind="AccountsAdd"
+                                Margin="0 0 5 0"/>
+
+                            <TextBlock Text="Add" VerticalAlignment="Center"/>
+
+
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Border>
+
+            <Frame x:Name="EnterPool" Grid.Row="1" Margin="5" NavigationUIVisibility="Hidden"/>
+
+
+        </Grid>
+
+    </Grid>
+</Window>

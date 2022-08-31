@@ -1,0 +1,17 @@
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\bin\Debug\net6.0\WpfExamProject.Service.deps.json
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\bin\Debug\net6.0\WpfExamProject.Service.dll
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\bin\Debug\net6.0\WpfExamProject.Service.pdb
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\obj\Debug\net6.0\WpfExamProject.Service.csproj.AssemblyReference.cache
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\obj\Debug\net6.0\WpfExamProject.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\obj\Debug\net6.0\WpfExamProject.Service.AssemblyInfoInputs.cache
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\obj\Debug\net6.0\WpfExamProject.Service.AssemblyInfo.cs
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\obj\Debug\net6.0\WpfExamProject.Service.csproj.CoreCompileInputs.cache
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\obj\Debug\net6.0\WpfExamProject.Service.dll
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\obj\Debug\net6.0\refint\WpfExamProject.Service.dll
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\obj\Debug\net6.0\WpfExamProject.Service.pdb
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\obj\Debug\net6.0\ref\WpfExamProject.Service.dll
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\bin\Debug\net6.0\WpfExamProject.Data.dll
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\bin\Debug\net6.0\WpfExamProject.Domain.dll
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\bin\Debug\net6.0\WpfExamProject.Data.pdb
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\bin\Debug\net6.0\WpfExamProject.Domain.pdb
+C:\Users\otaxo\source\repos\WpfExamProject\WpfExamProject.Service\obj\Debug\net6.0\WpfExamProject.Service.csproj.CopyComplete
